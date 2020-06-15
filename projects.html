@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ran Tian - University of Michigan</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="A theme for faculty profile page" />
+        <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
+
+        <link rel="shortcut icon" href="../favicon.ico">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+        
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <div class="portrate hidden-xs"></div>
+                            <div class="title">
+                                <h2>Ran Tian</h2>
+                                <h3> Robotics Institute</h3><h3> University of Michigan</h3>
+                            </div>   
+                        </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li>
+                                  <a href="index.html">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About Me</div>
+                                  </a>
+                                </li>  
+                                                                
+                                <li>
+                                  <a href="research.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li> 
+
+                                <li class="currentmenu">
+                                  <a href="projects.html">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="text">Projects</div>
+                                  </a>
+                                </li>
+                                <li>
+                                    <a href="outreach.html">
+                                        <i class="fa fa-camera-retro"></i>
+                                        <div class="text">STEM outreach</div>
+                                    </a>
+                                </li>
+
+                                <!-- <li class="external">
+                                  <a href="pdfs/RanTian_CV.pdf">
+                                      <i class="fa fa-download"></i>
+                                      <div class="text">Download CV</div>
+                                  </a>
+                                </li>
+                                <li class="external">
+                                  <a href="https://drive.google.com/file/d/1Q25Cn7vOW7CjU_Q1THtklXlLO3sMgnkh/view?usp=sharing">
+                                      <i class="fa fa-download"></i>
+                                      <div class="text">Download short research intro</div>
+                                  </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <!-- /Main navigation-->
+                        <!-- Sidebar footer -->
+                        <div id="sidebar-footer">
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+
+        
+                            <div id="copyright">Website template obtained from owwwlab.com</div>
+                    
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main">
+            
+                <div id="publications" class="page">
+                    <div class="page-container">
+                        <div class="pageheader">
+                            <div class="headercontent">
+                              <div class="section-container">
+                                <h2 class="title"><b>Selected Projects</b></h2>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="pagecontents">
+                            
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        <!-- <div class="col-md-3">
+                                            <h3>[<a href="">Google Scholar</a>]</h3>
+                                        </div> -->
+                                        
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="cv">Computer vision</option>
+                                                <option class="filter" value="control">Control</option>
+                                                <option class="filter" value="mp">Motion planning</option>
+                                               
+
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+												
+												<div class="item mix mp  sense" data-year="2019.03">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">  
+                                                                <!-- <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a> -->
+                                                                <a href="https://github.com/thomasrantian/RRT_star_planning_for_humanoid_robot_arm" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                               <!--  <a href="" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a> -->
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/arm_planning.gif" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Motion planning for a humanoid robot</b></h4>
+                                                                <div class="pubcite"><span class="label label-warning">Motion planning</span></div>
+                                                                <p style="text-align:justify;"><b>In this project, I implemented multiple sampling based motion planning algorithms (RRT, RRT*, Bidirectional RTT) for a humanoid robot to perform grasping tasks, and compared the performances of different methods. The red path is the raw path from the planer, and the blue path is the optimized and smoothed path. </b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div>    
+
+                                                <div class="item mix mp sense" data-year="2018.11">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">  
+                                                                <!-- <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a> -->
+                                                                <a href="https://github.com/thomasrantian/Humanoid_robot_footstep_planning" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                <!-- <a href="" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a> -->
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/foot_step_planning_2.gif" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Online footstep planning for humanoid robots</b></h4>
+                                                                <div class="pubcite"><span class="label label-warning">Motion planning</span></div>
+                                                                <p style="text-align:justify;"><b>In this project, we proposed an online footstep planning algorithm for a humanoid robot. The algorithm plans an optimal (and collision free) step sequence for a humanoid robot to walk to the target location. The planning algorithm is based on Anytime A* algorithm, which finds an initial feasible solution first then sequentially optimizes the solution.</b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cv sense" data-year="2018.10">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">  
+                                                                <!-- <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a> -->
+                                                                <a href="https://github.com/thomasrantian/Human-Gesture-Recognition-Through-Skeleton-Estimation" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                <!-- <a href="" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a> -->
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/gesture.gif" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Human gesture recognition through skeleton estimation</b></h4>
+                                                                <div class="pubcite"><span class="label label-default">Computer vision</span></div>
+                                                                <p style="text-align:justify;"><b>A smooth operation of the autonomous vehicles is based on the interaction between autonomous vehicles and human pedestrians, while interpreting the human intentions remains as a challenge. Verbal communication and interpretation is one popular approach for human-robot interaction. Compared with verbal commutation, our method can deliver a faster and clearer intention without disturbed by the environment. We proposed a vision-based framework that identifies human gesture for autonomous vehicles. The framework synergies a human skeleton estimation model to find the locations of the human skeleton key points (hand, elbow, and etc.) and a gesture recognition model to identify certain gestures of interests based on the estimated human skeleton.</b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix control sense" data-year="2017.11">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">  
+                                                                <!-- <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a> -->
+                                                                <a href="https://drive.google.com/file/d/10Lzw63sS7r9QHfbwaZuQmSEaAcE-Nacf/view?usp=sharing" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/slam.PNG" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Simultaneous localization and mapping </b></h4>
+                                                                <div class="pubcite"><span class="label label-info">Control</span><span class="label label-warning">Motion planning</span><span class="label label-default">Computer vision</span></div>
+                                                                <p style="text-align:justify;"><b>In this project we implemented and tested a Simultaneous Localization and Mapping (SLAM) algorithm to map an unknown environment. We implemented an odometry to track the robot’s location with the correction by the Monte-Carlo Localization algorithm. The motion of the robot is controlled by standard Proportional-Integral-Derivative (PID) controller to follow a desired path. We also implemented the occupancy grid mapping algorithm to map the unknown environment, as well as the A* algorithm used for exploring the unknown environment. We integrated all the subsystems and deployed the robot to map the hall way of the basement of the Space Research Building.</b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix control sense" data-year="2017.11">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">  
+                                                                <!-- <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a> -->
+                                                                <a href="https://drive.google.com/file/d/1UhYFX4o8CfgD77x2x_T9RhXSvK4QWq7A/view?usp=sharing" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/balance_bot.gif" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Two-wheels balance robot </b></h4>
+                                                                <div class="pubcite"><span class="label label-info">Control</span></div>
+                                                                <p style="text-align:justify;"><b>In this project, we designed an on-board control system to stabilize a two-wheeled robotic system. We proposed a methodology that makes the robot balance itself while maintaining its ability to traverse and rotate. We implemented odometry to track the position of the robot and compared with ground truth recorded by Opti-track. We also proposed an online path planning algorithm that is used by our robot to navigate through a sequence of randomly generated gates.</b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix control sense" data-year="2017.09">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <!-- <div class="pubassets">  
+                                                                <a href="" class="pubcollapse" title="Project Page">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                <a href="" class="tooltips" title="Paper" target="_blank">
+                                                                    <i class="fa fa-file-pdf-o"></i>
+                                                                </a>
+                                                            </div> -->
+                                                            <div class="col-md-3" align="center">
+                                                                <img src="projects_img/arm.gif" class="thumbnail img-responsive" style="max-height:200px;"/>
+                                                            </div>
+                                                            <div class="col-md-9" >
+                                                                <h4 class="pubtitle"><b>Robotic arm grasping </b></h4>
+                                                                <div class="pubcite"><span class="label label-info">Control</span><span class="label label-warning">Motion planning</span><span class="label label-default">Computer vision</span></div>
+                                                                <p style="text-align:justify;"><b>In this project, we developed a robotic arm that is able to grasp and manipulate objects of interests. The robotic arm identifies the objects of interests through an attached camera, then plans trajectory to grasp the object and place the object to the desired location.</b> </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>                                       
+ 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </body>
+</html>
+
