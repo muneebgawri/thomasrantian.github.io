@@ -29,7 +29,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
 
-
+    <!-- Fonts -->
+	<link rel="stylesheet" href="/css/fonts/texgyrepagella.css" type="text/css" />
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <!--/CSS styles-->
     <!--Javascript files-->
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
@@ -156,6 +163,58 @@
                                     <div class="col-md-11">
                                         <div class="pitems">
                                             <h2 class="title"><b>Publications</b></h2>
+                                            
+                                            
+                                             <!-- Publication 1 -->
+                                             <div class="item mix conference AI CS " data-year="2020.10">
+                                                <div class="pubmain">
+                                                    <div class="row">
+                                                        <div class="pubassets">
+                                                            <!-- <a href="https://sites.google.com/berkeley.edu/plannning-for-hcr/home" class="pubcollapse"
+                                                                title="Project Page">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a> -->
+                                                            <!-- <a href="" class="tooltips" title="Code" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a> -->
+                                                            <a href="pdfs/IROS_2021_Ran.pdf" class="tooltips"
+                                                                title="Paper" target="_blank">
+                                                                <i class="fa fa-file-pdf-o"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-md-3" align="center">
+
+                                                            <img src="projects_img/IROS_intro.png"
+                                                                class="thumbnail img-responsive"
+                                                                style="max-height:300px;" />
+
+                                                        </div>
+
+                                                        <div class="col-md-9">
+                                                            <h4 class="pubtitle"><b>Learning human rewards by inferring their latent intelligence levels in multi-agent games:
+                                                                 A Theory-of-Mind approach with application to driving data</b></h4>
+                                                            <div class="pubauthor"><strong>Ran Tian</strong>, Masayoshi Tomizuka, and Liting Sun</a>.</div>
+                                                            <br />
+                                                            <div class="pubcite"><b>Submitted to 2021 International Conference on Intelligent Robots and Systems (IROS)</b>
+                                                            </div>
+                                                            <div class="pubcite">
+                                                                <h4><span class="label label-primary"> Human-robot
+                                                                        interaction</span><span class="label label-primary"> Reward
+                                                                        learning</span>  </h4>
+                                                            </div>
+                                                            <br />
+                                                            <font color="Green" size="3">Key insight: Reasoning about humans’ hidden intelligence levels (a type of latent cognitive states) adds more
+                                                                                          ﬂexibility to multi-agent IRL algorithms and helps learn reward functions that explain and reconstruct human 
+                                                                                          behaviors better.</font>
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Publication 1 end -->
+                                            
+                                            
+                                            <!-- Publication 2 -->
                                             <div class="item mix conference AI CS " data-year="2020.03">
                                                 <div class="pubmain">
                                                     <div class="row">
@@ -181,7 +240,7 @@
                                                         </div>
 
                                                         <div class="col-md-9">
-                                                            <h4 class="pubtitle"><b>Bounded Risk-Sensitive Markov Games: Forward Policy Design and Inverse Reward Learning with Iterative Reasoning and Cumulative Prospect Theory
+                                                            <h4 class="pubtitle"><b>Bounded risk-sensitive Markov Games: forward policy design and inverse reward learning with iterative reasoning and cumulative prospect theory
 
                                                                 </b></h4>
                                                             <div class="pubauthor"><strong>Ran Tian</strong>, Liting
@@ -200,31 +259,24 @@
                                                                     </span></h4>
                                                             </div>
                                                             <br />
-                                                            <font color="Green" size="3">[Key insight:Classical game-theoretic approaches for multi-agent systems in both the forward policy
-                                                                 design problem and the inverse reward learning problem often make strong rationality assumptions: agents perfectly maximize 
-                                                                 expected utilities under uncertainties. Such assumptions, however, substantially mismatch with observed humans’ behaviors 
-                                                                 such as satisﬁcing with sub-optimal, risk-seeking, and loss-aversion decisions. In this paper, we investigate the problem 
-                                                                 of bounded risk-sensitive Markov Game (BRSMG) and its inverse reward learning problem for modeling human realistic behaviors and learning human behavioral models.
-                                                                Drawing on iterative reasoning models and cumulative prospect theory, we embrace that humans have bounded intelligence and maximize risksensitive utilities in BRSMGs]</font>
+                                                            <font color="Green" size="3">Key insight: Classical game-theoretic approaches for multi-agent systems in both the forward policy
+                                                                 design problem and the inverse reward learning problem often assume that agents perfectly maximize 
+                                                                 expected utilities. Such assumptions substantially mismatch with observed humans’ behaviors 
+                                                                 such as satisﬁcing with sub-optimal, risk-seeking, and loss-aversion decisions. Drawing on iterative
+                                                                reasoning models and cumulative prospect theory, we propose a new game-theoretic
+                                                                framework, bounded risk-sensitive Markov Game (BRSMG), that captures two aspects
+                                                                of realistic human behaviors: bounded intelligence and risk-sensitivity.</font>
                                                             <br>
-                                                            <!-- <font size="2">we investigate the problem of bounded
-                                                                risk-sensitive Markov Game (BRSMG) and its inverse
-                                                                reward learning problem. Instead of assuming agents
-                                                                perform infinite levels of reasoning over possible
-                                                                actions of others, in BRSMG, we consider the influence
-                                                                of finite-level intelligence. Instead of assuming agents
-                                                                maximize their expected rewards (a risk-neutral
-                                                                measure), in BRSMG, we consider the impact of
-                                                                risk-sensitive measures such as the cumulative prospect
-                                                                theory. Convergence proofs of BRSMG for both the forward
-                                                                policy learning and inverse reward learning are
-                                                                provided. </font> -->
+                                                           
 
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                                     <!-- Publication 1 -->
+                                                         
+                                                   
+                                            
+                                                    <!-- Publication 1 -->
                                                      <div class="item mix conference AI CS " data-year="2020.10">
                                                         <div class="pubmain">
                                                             <div class="row">
@@ -236,28 +288,28 @@
                                                                     <!-- <a href="" class="tooltips" title="Code" target="_blank">
                                                                             <i class="fa fa-external-link"></i>
                                                                         </a> -->
-                                                                    <!-- <a href="pdfs/Curious_robot_HRI.pdf" class="tooltips"
+                                                                    <a href="pdfs/ICRA_2021_Ran.pdf" class="tooltips"
                                                                         title="Paper" target="_blank">
                                                                         <i class="fa fa-file-pdf-o"></i>
-                                                                    </a> -->
+                                                                    </a>
                                                                 </div>
                                                                 <div class="col-md-3" align="center">
         
-                                                                    <img src="projects_img/icra_21_intro_plot.png"
+                                                                    <img src="projects_img/curious_self_driving_car_2.png"
                                                                         class="thumbnail img-responsive"
                                                                         style="max-height:300px;" />
         
                                                                 </div>
         
                                                                 <div class="col-md-9">
-                                                                    <h4 class="pubtitle"><b>Anytime Game-Theoretic Planning with Safe and Active Information Gathering on Humans’ Latent States for Human-Centered Robots
+                                                                    <h4 class="pubtitle"><b>Anytime game-theoretic planning with safe and active information gathering on humans’ latent states for human-centered robots
                                                                         </b></h4>
                                                                     <div class="pubauthor"><strong>Ran Tian</strong>, Liting Sun, Masayoshi Tomizuka, and
                                                                         David Isele</a>.
                                                                     </div>
         
                                                                     <br />
-                                                                    <div class="pubcite"><b>Preprint</b>
+                                                                    <div class="pubcite"><b>2021 International Conference on Robotics and Automation (ICRA)</b>
                                                                     </div>
                                                                     <div class="pubcite">
                                                                         <h4><span class="label label-primary"> Human-robot
@@ -265,9 +317,9 @@
                                                                             </h4>
                                                                     </div>
                                                                     <br />
-                                                                    <font color="Green" size="3">[Key insight: Human-centered robots can exploit the mutual inﬂuence in interactions to design actions
+                                                                    <font color="Green" size="3">Key insight: Human-centered robots can exploit the mutual inﬂuence in interactions to design actions
                                                                          that reveal their human partners’ cognitive limitations and degrees of rationality. By actively gathering information on these
-                                                                          latent states, robots can achieve more effective planning.</font>]
+                                                                          latent states, robots can achieve more effective planning.</font>
                                                                     <br>
                                                                     
         
@@ -322,13 +374,13 @@
                                                                     </span></h4>
                                                             </div>
                                                             <br />
-                                                            <font color="Green" size="3">[Key insight: Giving an agent
+                                                            <font color="Green" size="3">Key insight: Giving an agent
                                                                 the ability to
                                                                 be curious about its environment could improve
                                                                 its understanding and potentially aid in future
-                                                                planning.</font>]
+                                                                planning.</font>
                                                             <br>
-                                                            <font size="2">We present a novel algorithm
+                                                            <!-- <font size="2">We present a novel algorithm
                                                                 that provides a goal oriented agent with artificial
                                                                 curiosity, enabling the agent to explore as needed to
                                                                 better achieve its goal. The algorithm uses model-based
@@ -338,7 +390,7 @@
                                                                 framework can be applied to enable autonomous vehicles
                                                                 to effectively negotiate traffic merges, and to improve
                                                                 the navigation of a Fetch robot under pose
-                                                                uncertainty.</font>
+                                                                uncertainty.</font> -->
 
                                                         </div>
                                                     </div>
@@ -464,10 +516,10 @@
                                                                 </h4>
                                                             </div>
                                                             <br />
-                                                            <font color="Green" size="3">[Key insight: Autonomous
+                                                            <font color="Green" size="3">Key insight: Autonomous
                                                                 vehicle control systems must have the abilities to
                                                                 handle unanticipated/failure situations during
-                                                                operation.</font>] <a href="https://www.youtube.com/watch?v=zw_WWu7-g0k" target="_blank"> <font color="orange" size="4">[Videos]</font></a>
+                                                                operation.</font> <a href="https://www.youtube.com/watch?v=zw_WWu7-g0k" target="_blank"> <font color="orange" size="4">[Videos]</font></a>
                                                             <br>
                                                             <font size="2">This paper proposes a controller mode and
                                                                 reference governor
@@ -533,9 +585,9 @@
                                                             </div>
                                                             <br />
 
-                                                            <font color="Green" size="3">[Key insight: Probabilistic
+                                                            <font color="Green" size="3">Key insight: Probabilistic
                                                                 human models inspired cognitive-neuron science may
-                                                                capture some crucial features in human reasoning.]
+                                                                capture some crucial features in human reasoning.
                                                             </font> <a href="https://www.youtube.com/watch?v=SZz-__7Af7Y" target="_blank"> <font color="orange" size="4">[Videos]</font></a>
                                                             <br />
                                                             <font size="2"> We consider a repeated penny-matching game
@@ -599,11 +651,11 @@
                                                                 </h4>
                                                             </div>
                                                             <br />
-                                                            <font color="Green" size="3">[Key insight: Autonomous
+                                                            <font color="Green" size="3">Key insight: Autonomous
                                                                 vehicle planning systems need extensive testing, where
                                                                 the interactions
                                                                 among autonomous/human-driven vehicles should be
-                                                                represented.]</font>
+                                                                represented.</font>
                                                             <br />
                                                             <font size="2"> We propose a game-theoretic approach to
                                                                 modeling vehicle
@@ -709,11 +761,11 @@
                                                                 </h4>
                                                             </div>
                                                             <br />
-                                                            <font color="Green" size="3">[Key insight: Non-equilibrium
+                                                            <font color="Green" size="3">Key insight: Non-equilibrium
                                                                 solution concept of game-theoretic model can approximate
                                                                 human driver's bounded rationality and can be exploited
                                                                 to develop decision-making algorithms for self-driving
-                                                                cars.]</font>
+                                                                cars.</font>
                                                             <br />
                                                             <font size="2"> Inspired by human cognitive models, we
                                                                 proposed a
@@ -775,7 +827,7 @@
                                                                 </h4>
                                                             </div>
                                                             <br />
-                                                            Mini abstract:This paper addresses the problem of
+                                                            Mini abstract: This paper addresses the problem of
                                                             vehicle rollover avoidance using reference governors
                                                             (RGs) applied to modify the driver steering input in
                                                             vehicles
